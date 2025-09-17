@@ -73,28 +73,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Backend Integration CTA */}
-      <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <Card className="bg-primary/5 border-primary/20 p-8">
-            <h2 className="text-2xl font-bold mb-4 text-foreground">
-              Ready for Production?
-            </h2>
-            <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              This is a beautiful frontend ready for your AI backend. Connect to Supabase 
-              to enable real AI conversations, user authentication, and message persistence.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="gradient-primary">
-                Connect Supabase
-              </Button>
-              <Button variant="outline">
-                View Documentation
-              </Button>
-            </div>
-          </Card>
-        </div>
-      </section>
     </div>
   );
 };
